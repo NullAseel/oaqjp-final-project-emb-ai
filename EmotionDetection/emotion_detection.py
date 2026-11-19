@@ -1,4 +1,3 @@
-cat > EmotionDetection/emotion_detection.py << 'EOF'
 import json
 import requests
 
@@ -27,4 +26,3 @@ def emotion_detector(text_to_analyze):
         'sadness': sadness_score,
         'dominant_emotion': dominant_emotion
     }
-EOF
